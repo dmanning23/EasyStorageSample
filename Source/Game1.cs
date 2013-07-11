@@ -37,7 +37,7 @@ namespace EasyStorageSample
 			
 			// on Windows Phone we use a save device that uses IsolatedStorage
 			// on Windows and Xbox 360, we use a save device that gets a shared StorageDevice to handle our file IO.
-			#if WINDOWS_PHONE
+			#if WINDOWS_PHONE || ANDROID
 			saveDevice = new IsolatedStorageSaveDevice();
 			#else
 			// create and add our SaveDevice
