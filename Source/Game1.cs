@@ -72,8 +72,14 @@ namespace EasyStorageSample
 		
 		void saveDevice_SaveCompleted(object sender, FileActionCompletedEventArgs args)
 		{
+			string strText = "SaveCompleted!";
+			if (null != args.Error)
+			{
+				strText = args.Error.Message;
+			}
+
 			// just write some debug output for our verification
-			Debug.WriteLine("SaveCompleted!");
+			Debug.WriteLine(strText);
 		}
 		
 		protected override void LoadContent()
