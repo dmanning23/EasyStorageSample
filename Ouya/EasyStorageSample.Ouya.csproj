@@ -30,13 +30,13 @@
     <AndroidLinkMode>None</AndroidLinkMode>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>full</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <DefineConstants>ANDROID;OUYA</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,11 +68,6 @@
     <Folder Include="Assets\Content\" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="..\Source\Content\TestFont.xnb">
-      <Link>Assets\Content\TestFont.xnb</Link>
-    </AndroidAsset>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\externals\EasyStorage\Ouya\EasyStorage.Ouya.csproj">
       <Project>{832F9B24-0E36-473C-945E-5C4EC884568C}</Project>
       <Name>EasyStorage.Ouya</Name>
@@ -89,5 +84,22 @@
       <Project>{493A4B6F-98CE-4000-8A0C-4A4726299061}</Project>
       <Name>Ouya.Console.Api</Name>
     </ProjectReference>
+    <ProjectReference Include="..\externals\FontBuddy\Ouya\FontBuddyLib.Ouya.csproj">
+      <Project>{782A28A3-66E3-40B6-8651-8F159AF19BA6}</Project>
+      <Name>FontBuddyLib.Ouya</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\ResolutionBuddy\Ouya\ResolutionBuddy.Ouya.csproj">
+      <Project>{3BFACC81-6B4D-462B-91E2-09349A3619AD}</Project>
+      <Name>ResolutionBuddy.Ouya</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\ToastBuddyLib\Ouya\ToastBuddyLib.Ouya.csproj">
+      <Project>{2CC75F17-D107-40AF-BC16-B06B70A9993A}</Project>
+      <Name>ToastBuddyLib.Ouya</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ArialBlack24.xnb">
+      <Link>Assets\Content\ArialBlack24.xnb</Link>
+    </AndroidAsset>
   </ItemGroup>
 </Project>

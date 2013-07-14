@@ -7,3 +7,15 @@
 [submodule "externals/ouya-csharp"]
 	path = externals/ouya-csharp
 	url = https://github.com/dmanning23/ouya-csharp.git
+[submodule "externals/XNA"]
+	path = externals/XNA
+	url = https://github.com/dmanning23/XnaCompiledResources.git
+[submodule "externals/ResolutionBuddy"]
+	path = externals/ResolutionBuddy
+	url = https://github.com/dmanning23/ResolutionBuddy.git
+[submodule "externals/ToastBuddyLib"]
+	path = externals/ToastBuddyLib
+	url = https://github.com/dmanning23/ToastBuddyLib.git
+[submodule "externals/FontBuddy"]
+	path = externals/FontBuddy
+	url = https://github.com/dmanning23/FontBuddy.git

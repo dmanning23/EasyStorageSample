@@ -64,5 +64,23 @@
       <Project>{7DE47032-A904-4C29-BD22-2D235E8D91BA}</Project>
       <Name>MonoGame.Framework.Windows</Name>
     </ProjectReference>
+    <ProjectReference Include="..\externals\FontBuddy\Windows\FontBuddy.Windows.csproj">
+      <Project>{65B5BB5D-0C69-4DDB-8DE6-F6B91C41279D}</Project>
+      <Name>FontBuddy.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\ResolutionBuddy\Windows\ResolutionBuddy.Windows.csproj">
+      <Project>{28342DF0-0089-4A2A-B3D4-6DCD65D6D8E4}</Project>
+      <Name>ResolutionBuddy.Windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\externals\ToastBuddyLib\Windows\ToastBuddyLib.Windows.csproj">
+      <Project>{E716CF77-436D-4177-A963-DAF935E2F71C}</Project>
+      <Name>ToastBuddyLib.Windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\externals\XNA\WindowsGame1\WindowsGame1\bin\x86\Debug\Content\ArialBlack24.xnb">
+      <Link>Content\ArialBlack24.xnb</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>

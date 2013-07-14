@@ -30,6 +30,18 @@ namespace EasyStorageSample.Ouya
 			EasyStorage.Ouya.Resource.Layout.monoandroidsplash = EasyStorageSample.Ouya.Resource.Layout.monoandroidsplash;
 			EasyStorage.Ouya.Resource.String.library_name = EasyStorageSample.Ouya.Resource.String.library_name;
 			EasyStorage.Ouya.Resource.Style.Mono_Android_Theme_Splash = EasyStorageSample.Ouya.Resource.Style.Mono_Android_Theme_Splash;
+			FontBuddyLib.Ouya.Resource.Drawable.monoandroidsplash = EasyStorageSample.Ouya.Resource.Drawable.monoandroidsplash;
+			FontBuddyLib.Ouya.Resource.Layout.monoandroidsplash = EasyStorageSample.Ouya.Resource.Layout.monoandroidsplash;
+			FontBuddyLib.Ouya.Resource.String.library_name = EasyStorageSample.Ouya.Resource.String.library_name;
+			FontBuddyLib.Ouya.Resource.Style.Mono_Android_Theme_Splash = EasyStorageSample.Ouya.Resource.Style.Mono_Android_Theme_Splash;
+			ResolutionBuddy.Ouya.Resource.Drawable.monoandroidsplash = EasyStorageSample.Ouya.Resource.Drawable.monoandroidsplash;
+			ResolutionBuddy.Ouya.Resource.Layout.monoandroidsplash = EasyStorageSample.Ouya.Resource.Layout.monoandroidsplash;
+			ResolutionBuddy.Ouya.Resource.String.library_name = EasyStorageSample.Ouya.Resource.String.library_name;
+			ResolutionBuddy.Ouya.Resource.Style.Mono_Android_Theme_Splash = EasyStorageSample.Ouya.Resource.Style.Mono_Android_Theme_Splash;
+			ToastBuddyLib.Ouya.Resource.Drawable.monoandroidsplash = EasyStorageSample.Ouya.Resource.Drawable.monoandroidsplash;
+			ToastBuddyLib.Ouya.Resource.Layout.monoandroidsplash = EasyStorageSample.Ouya.Resource.Layout.monoandroidsplash;
+			ToastBuddyLib.Ouya.Resource.String.library_name = EasyStorageSample.Ouya.Resource.String.library_name;
+			ToastBuddyLib.Ouya.Resource.Style.Mono_Android_Theme_Splash = EasyStorageSample.Ouya.Resource.Style.Mono_Android_Theme_Splash;
 		}
 		
 		public partial class Attribute
